@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MembershipController">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="32.0" layoutY="28.0" text="이름" />
+            <Label layoutX="32.0" layoutY="61.0" text="아이디" />
+            <Label layoutX="32.0" layoutY="94.0" text="암호" />
+            <Label layoutX="14.0" layoutY="127.0" text="암호 확인" />
+            <Label layoutX="60.0" layoutY="159.0" text="학년" />
+            <Label layoutX="364.0" layoutY="159.0" text="번호" />
+            <Label layoutX="203.0" layoutY="159.0" text="반" />
+            <TextField fx:id="usernameTextField" layoutX="73.0" layoutY="27.0" prefHeight="24.0" prefWidth="391.0" promptText="이름을 입력해주세요." />
+            <TextField fx:id="useridTextField" editable="false" layoutX="73.0" layoutY="58.0" prefHeight="24.0" prefWidth="390.0" promptText="아이디를 입력해주세요." />
+            <PasswordField fx:id="password1PasswordField" layoutX="73.0" layoutY="93.0" prefHeight="24.0" prefWidth="389.0" promptText="암호를 입력해주세요." />
+            <PasswordField fx:id="password2PasswordField" layoutX="73.0" layoutY="124.0" prefHeight="24.0" prefWidth="390.0" promptText="암호를 다시 입력해주세요." />
+            <TextField fx:id="hakTextField" layoutX="96.0" layoutY="152.0" prefHeight="31.0" prefWidth="47.0" promptText="학년" />
+            <TextField fx:id="banTextField" layoutX="236.0" layoutY="152.0" prefHeight="31.0" prefWidth="56.0" promptText="반" />
+            <TextField fx:id="bunTextField" layoutX="407.0" layoutY="152.0" prefHeight="31.0" prefWidth="55.0" promptText="번호" />
+            <TableView fx:id="membershipTableView" layoutX="29.0" layoutY="187.0" onMouseClicked="#membershipTableViewOnAction" prefHeight="95.0" prefWidth="447.0">
+              <columns>
+                <TableColumn fx:id="userNameTableColumn" prefWidth="75.0" text="이름" />
+                <TableColumn fx:id="userIdTableColumn" prefWidth="75.0" text="아이디" />
+                  <TableColumn fx:id="userPasswordTableColumn" prefWidth="75.0" text="암호" />
+                  <TableColumn fx:id="userHakTableColumn" prefWidth="75.0" text="학년" />
+                  <TableColumn fx:id="userBanTableColumn" prefWidth="75.0" text="반" />
+                  <TableColumn fx:id="userBunTableColumn" prefWidth="75.0" text="번호" />
+              </columns>
+            </TableView>
+            <Button fx:id="updateButton" layoutX="479.0" layoutY="20.0" mnemonicParsing="false" onAction="#updateButtonOnAction" prefHeight="56.0" prefWidth="101.0" style="-fx-background-color: #304dff;" text="수정" textFill="WHITE" />
+            <Button fx:id="deleteButton" layoutX="479.0" layoutY="87.0" mnemonicParsing="false" onAction="#deleteButtonOnAction" prefHeight="56.0" prefWidth="101.0" style="-fx-background-color: #304dff;" text="삭제" textFill="WHITE" />
+            <Button fx:id="readlistButton" layoutX="479.0" layoutY="147.0" mnemonicParsing="false" onAction="#readlistButtonOnAction" prefHeight="134.0" prefWidth="101.0" style="-fx-background-color: #304dff;" text="리스트 &#10;읽    기" textFill="WHITE" />
+            <Button fx:id="closeButton" layoutX="25.0" layoutY="288.0" mnemonicParsing="false" onAction="#closeButtonOnAction" prefHeight="22.0" prefWidth="557.0" style="-fx-background-color: #304dff;" text="창 닫기" textFill="WHITE" />
+            <Label fx:id="membershipMessageLabel" alignment="CENTER" layoutX="32.0" layoutY="6.0" prefHeight="13.0" prefWidth="536.0" textFill="RED" />
+         </children>
+      </AnchorPane>
+   </center>
+   <top>
+      <AnchorPane prefHeight="84.0" prefWidth="600.0" style="-fx-background-color: #ccd3ff;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="85.0" fitWidth="91.0" layoutX="258.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@sungil-membership.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>
