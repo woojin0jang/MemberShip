@@ -11,7 +11,7 @@ JavaFX SDK 15.0.1 <br>
 SceneBuilder 16.0.0
 
 ## module-info.java 
-   {
+   {<br>
 	requires javafx.controls;
 	requires javafx.fxml;
 	requires javafx.graphics;
