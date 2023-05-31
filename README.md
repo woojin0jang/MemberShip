@@ -28,6 +28,7 @@ SceneBuilder 16.0.0
 # 실행화면
 ## (1) 로그인
 사용자 아이디와 암호를 입력해 데이터베이스에 있는 아이디 비밀번호와 일치하면 로그인 됩니다.
+
 ![image](https://github.com/woojin0jang/MemberShip/assets/102105000/f7bea56b-e2e6-401e-808b-a005f1679b24)
 ## (2) 회원가입
 아이디가 데이터베이스에 있는 아이디와 달라야하고, 모든 값을 입력 후 회원가입을 누르면<br>사용자 데이터베이스에 데이터가 삽입됩니다. 
@@ -44,6 +45,7 @@ SceneBuilder 16.0.0
 ![image](https://github.com/woojin0jang/MemberShip/assets/102105000/963a755f-fd9f-43b6-a0a7-a523e922dccf)
 ## (5) 관리자 회원관리
 리스트에 있는 행을 클릭 시 그 행의 데이터들을 관리 할 수 있게 데이터가 들어옵니다.
+
 ![image](https://github.com/woojin0jang/MemberShip/assets/102105000/e23a9cd8-36bc-4c24-aa70-602316d9afa5)
 
 
