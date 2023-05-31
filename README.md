@@ -38,7 +38,9 @@ SceneBuilder 16.0.0
 
 ![image](https://github.com/woojin0jang/MemberShip/assets/102105000/7737e054-7e58-48f4-a01d-7980adb4f519)
 ## (4) 관리자 로그인
-관리자 체크를 누르면 관리자 전용 로그인이 생기고 회원가입 버튼을 누릴 수 없게 됩니다.
+관리자 체크를 누르면 관리자 전용 로그인이 생기고 회원가입 버튼이 회원관리 버튼으로 <br>
+바뀜과 동시에 로그인을 해야 회원관리 버튼을 누를 수 있습니다.
+
 ![image](https://github.com/woojin0jang/MemberShip/assets/102105000/963a755f-fd9f-43b6-a0a7-a523e922dccf)
 ## (5) 관리자 회원관리
 ![image](https://github.com/woojin0jang/MemberShip/assets/102105000/e23a9cd8-36bc-4c24-aa70-602316d9afa5)
