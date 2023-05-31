@@ -31,6 +31,7 @@ SceneBuilder 16.0.0
 ![image](https://github.com/woojin0jang/MemberShip/assets/102105000/f7bea56b-e2e6-401e-808b-a005f1679b24)
 ## (2) 회원가입
 아이디가 데이터베이스에 있는 아이디와 달라야하고, 모든 값을 입력 후 회원가입을 누르면<br>사용자 데이터베이스에 데이터가 삽입됩니다. 
+
 ![image](https://github.com/woojin0jang/MemberShip/assets/102105000/146c4fbd-5abb-4610-a92a-d1514d957eb5)
 ## (3) 회원정보 수정
 로그인이 되어있는 사용자가 회원정보 수정을 누르면 자신의 회원정보가 자동으로 <br>들어옵니다. (아이디는 수정이 불가능합니다.)
