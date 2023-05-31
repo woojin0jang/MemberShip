@@ -6,8 +6,8 @@
 <br>
 
 # 버전 및 환경
-jdk 15.0.2
-javafx 15.0.1
+javaJDK 15.0.2 <br>
+JavaFX SDK 15.0.1 <br>
 SceneBuilder 16.0.0
 
 ## module-info.java 
