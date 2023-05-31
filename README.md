@@ -43,6 +43,7 @@ SceneBuilder 16.0.0
 
 ![image](https://github.com/woojin0jang/MemberShip/assets/102105000/963a755f-fd9f-43b6-a0a7-a523e922dccf)
 ## (5) 관리자 회원관리
+리스트에 있는 행을 클릭 시 그 행의 데이터들을 관리 할 수 있게 데이터가 들어옵니다.
 ![image](https://github.com/woojin0jang/MemberShip/assets/102105000/e23a9cd8-36bc-4c24-aa70-602316d9afa5)
 
 
