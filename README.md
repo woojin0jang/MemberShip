@@ -12,13 +12,13 @@ SceneBuilder 16.0.0
 
 ## module-info.java 
    {<br>
-	requires javafx.controls;
-	requires javafx.fxml;
-	requires javafx.graphics;
-	requires java.sql;
-	requires javafx.base;
-	
-	opens application;
+	requires javafx.controls;<br>
+	requires javafx.fxml;<br>
+	requires javafx.graphics;<br>
+	requires java.sql;<br>
+	requires javafx.base;<br>
+	<br>
+	opens application;<br>
 }
 
 
