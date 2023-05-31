@@ -28,5 +28,14 @@ SceneBuilder 16.0.0
 # 실행화면
 ## (1) 로그인
 ![image](https://github.com/woojin0jang/MemberShip/assets/102105000/f7bea56b-e2e6-401e-808b-a005f1679b24)
+## (2) 회원가입
+![image](https://github.com/woojin0jang/MemberShip/assets/102105000/146c4fbd-5abb-4610-a92a-d1514d957eb5)
+## (3) 회원정보 수정
+![image](https://github.com/woojin0jang/MemberShip/assets/102105000/7737e054-7e58-48f4-a01d-7980adb4f519)
+## (3) 관리자 로그인
+![image](https://github.com/woojin0jang/MemberShip/assets/102105000/963a755f-fd9f-43b6-a0a7-a523e922dccf)
+## (3) 관리자 로그인
+
+
 
 
