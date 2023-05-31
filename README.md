@@ -10,7 +10,7 @@ jdk 15.0.2
 javafx 15.0.1
 SceneBuilder 16.0.0
 
-module-info.java {
+## module-info.java {
 
 	requires javafx.controls;
 	requires javafx.fxml;
