@@ -21,10 +21,10 @@ SceneBuilder 16.0.0
 	opens application;<br>
 }
 ### 목차
-(1)로그인
-(2)회원가입
-(3)관리자 로그인
-(4)관리자 회원관리
+(1)로그인<br>
+(2)회원가입<br>
+(3)관리자 로그인<br>
+(4)관리자 회원관리<br>
 # 실행화면
 ## (1) 로그인
 ![image](https://github.com/woojin0jang/MemberShip/assets/102105000/f7bea56b-e2e6-401e-808b-a005f1679b24)
